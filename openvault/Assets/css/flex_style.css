@@ -1,0 +1,22 @@
+.container {
+    background: #555;
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+    align-items: center;
+}
+
+.item {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    flex-basis: 300px;
+}
+/* 
+.item:first-child {
+    flex: 2;
+} */
+
+
